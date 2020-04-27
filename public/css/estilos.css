@@ -1,0 +1,445 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+#playlist{
+	cursor: pointer;
+}
+#playlist li:hover{
+	background: red;
+	color: white;
+}
+@font-face {
+   font-family: 'calligrapher';
+   src: url('../fonts/calligrapher.eot');
+   src: local('?'), url('../fonts/calligrapher.woff') format('woff'), url('../fonts/calligrapher.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'unisans';
+   src: url('../fonts/Uni Sans Heavy.otf');
+}
+
+.face{
+	text-align: center;
+}
+.contenido{
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../images/font.jpg');
+    background-attachment: fixed;
+    overflow: scroll;
+}
+#cnp{
+	background: url("../images/banner/pichincha+.jpg");
+	height: 100vh;
+	font-family: unisans;
+	background-size: cover;
+	background-position: center;
+}
+#histo{
+	background: url("../images/banner/historia.jpg");
+	height: 100vh;
+	font-family: unisans;
+	background-size: cover;
+	background-position: center;
+}
+#banda{
+		background: url("../images/banner/banda.jpg");
+		height: 100vh;
+		font-family: unisans;
+		background-size: cover;
+		background-position: center;
+}
+#audio{
+		background: url("../images/banner/audio.jpg");
+		height: 100vh;
+		font-family: unisans;
+		background-size: cover;
+		background-position: center;
+}
+	#contacto{
+		background: url("../images/banner/contacto.jpg");
+		height: 100vh;
+		font-family: unisans;
+		background-size: cover;
+		background-position: center;
+	}
+/*=============================================
+			PAGINA CONTACTO      
+=============================================*/
+	.gmap{
+		border: 7px solid #f6f5f0;
+		border-radius: 50%;
+		height: 450px;
+		width: 450px;
+		box-shadow: 0px 0px 3px 3px #e7e4dc;
+		overflow: hidden;
+		position: relative;
+		margin: 0 auto;
+	}
+	.redes a{
+		color: #000;
+		font-size: 3rem;
+		margin: 0 0.3rem;
+		opacity: 0.6;
+		text-decoration:none;
+		transition: all .5s ease;
+	}
+	.redes a p{
+		color: #000;
+		font-size: 1rem;
+
+	}
+	.redes a:hover{
+		opacity: 1;
+	}
+}
+/*=====  Fin de PAGINA CONTACTO   ======*/
+
+/*=============================================
+			PAGINA PICHINCHA+       
+=============================================*/
+
+.activite a h3{
+	color: #000;
+}
+.activite a {
+	text-decoration: none;
+	color: #000;
+}
+.activite a :hover{
+	text-decoration: none;
+	color: red;
+}
+.redondo{
+	border-radius: 15px;
+}
+/*=====  Fin de PAGINA PICHINCHA+  ======*/
+
+/*=============================================
+					TOP PAGINA        
+=============================================*/
+.img-slide{
+	margin-left: 9rem;
+}
+
+.titulo{
+	margin-left: 9rem;
+	font-family:calligrapher;
+	font-size: 5rem;
+	color: #000;
+	text-shadow: 2px 3px 2px #fff;
+}
+.subti{
+	margin-left: 9rem;
+	font-family:calligrapher;
+	font-size: 2rem;
+	color: #fff;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.audio{
+	display: none;
+}
+.conta {
+    width: 100%;
+    height: 500px;
+    margin: 1em auto;
+    overflow: hidden;
+    background: transparent;   
+}
+.marquee {
+    top: 6em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 80s linear infinite;
+}
+.marquee:hover {
+    animation-play-state: paused;
+}
+
+/* Make it move! */
+@keyframes marquee {
+    0%   { top:   18em }
+    100% { top: -47em }
+}
+
+
+.nav-link:hover{
+	background: rgba(254,0,0,.4);
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+}
+
+.banner{
+		background: url("../images/banner/portada.jpg");
+		height: 100vh;
+		font-family:unisans;
+		background-size: cover;
+		background-position: center;
+}
+
+.flechaAbajo a{
+	text-align: center;
+	font-size: 3rem;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	animation: flecha-animada 2s ease-in-out infinite;
+}
+@keyframes flecha-animada{
+	from{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(6px);
+	}
+	to{
+		transform: translateY(0);
+	}
+}
+
+/*=====  Fin de TOP PAGINA  ======*/
+
+/*=============================================
+PIE DE PAGINA         
+=============================================*/
+.footer {
+	background: #292b2c;
+	height: auto;
+	color: #fff;
+	text-align: center;
+}
+.footer .redes{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer .redes a{
+	color: #fff;
+	font-size: 2rem;
+	margin: 0 0.3rem;
+	opacity: 0.6;
+	text-decoration:none;
+	transition: all .5s ease;
+}
+.footer .redes a:hover{
+	opacity: 1;
+}
+
+.ir-arriba{
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	color: #000;
+	text-decoration: none;
+	z-index: 99999;
+	line-height: 0;
+	opacity: 0.5;
+	transition: all .5s ease;
+}
+.ir-arriba:hover, .ir-arriba:focus{
+	outline: 0;
+	text-decoration: none;
+	color: #fff;
+	opacity: 1;
+}
+.ir-arriba:click{
+	color: #000;
+}
+
+
+/*=====  Fin de PIE DE PAGINA  ======*/
+
+/*=============================================
+TEAM         
+=============================================*/
+
+.team .redes{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.team .redes a{
+	color: #000;
+	font-size: 2rem;
+	margin: 0 0.3rem;
+	opacity: 0.6;
+	text-decoration:none;
+	transition: all .5s ease;
+}
+.team .redes a:hover{
+	opacity: 1;
+}
+
+/*=====  Fin de TEAM  ======*/
+
+/*=============================================
+ARTICULOS          
+=============================================*/
+
+.tag{
+	font-size: 0.7rem;
+}
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(0,0,0 ,0.4);
+}
+
+/*=====  Fin de ARTICULOS  ======*/
+
+
+//*=============================================
+ESCRITORIO GRANDE                    
+=============================================*/
+
+@media (min-width:1200px){
+
+
+}
+	
+/*=====  Fin de ESCRITORIO GRANDE  ======*/
+	
+	
+/*=============================================
+ESCRITORIO MEDIANO                   
+=============================================*/
+	
+@media (max-width:1199px) and (min-width:992px){
+	
+	.nav-link{
+		font-size: 0.9em;
+	}
+
+
+}
+
+/*=====  Fin de ESCRITORIO PEQUEÑO  ======*/
+	
+/*********************************************
+Tablets
+**********************************************/
+	
+@media (max-width:991px) and (min-width:768px){
+
+	
+	.nav-link{
+		text-align: center;
+	}
+	.titulo{
+	
+	font-size: 3rem;
+
+	}
+	.subti{
+		font-size: 2rem;
+
+	}
+	.img-slide{
+		width: 250px;
+	}
+
+
+}
+
+/*=====  Fin de TABLET  ======*/
+	
+/*********************************************
+Phones
+**********************************************/
+	
+@media (max-width:767px){
+	.banner{
+		background: url("../images/banner/portada1.jpg");
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+	}
+	#cnp{
+		background: url("../images/banner/pichincha1+.jpg");
+		height: 100vh;
+		font-family: unisans;
+		background-size: cover;
+		background-position: center;
+	}
+	#histo{
+		background: url("../images/banner/historia1.jpg");
+		height: 100vh;
+		font-family: unisans;
+		background-size: cover;
+		background-position: center;
+	}
+	#banda{
+		background: url("../images/banner/banda1.jpg");
+		height: 100vh;
+		font-family: unisans;
+		background-size: cover;
+		background-position: center;
+	}
+	#audio{
+		background: url("../images/banner/audio1.jpg");
+		height: 100vh;
+		font-family: unisans;
+		background-size: cover;
+		background-position: center;
+	}
+	#contacto{
+		background: url("../images/banner/contacto1.jpg");
+		height: 100vh;
+		font-family: unisans;
+		background-size: cover;
+		background-position: center;
+	}
+	.nav-link{
+		text-align: center;
+	}
+	.audio{
+	display: block;
+	}
+	.img-slide{
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.contenido{
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../images/font1.jpg');
+    background-attachment: fixed;
+    overflow: scroll;
+	}
+	/*=============================================
+			PAGINA CONTACTO      
+=============================================*/
+	.gmap{
+		border: 7px solid #f6f5f0;
+		border-radius: 50%;
+		height: 250px;
+		width: 250px;
+		box-shadow: 0px 0px 3px 3px #e7e4dc;
+		overflow: hidden;
+		position: relative;
+		margin: 0 auto;
+	}
+/*=====  Fin de PAGINA CONTACTO   ======*/
+}
+
+/*=====  Fin de PHONES  ======*

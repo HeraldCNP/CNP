@@ -1,0 +1,74 @@
+{
+	"songs":[
+		{
+			"id":0,
+			"nombre":"Al Colegio Pichincha - Roberto Delgado",
+			"artista":"Kevin",
+			"song":"music/Al Colegio Pichincha - Roberto Delgado.mp3",
+			"image":"images/3.png"
+		},
+		{
+			"id":1,
+			"nombre":"Toros Rojos - Parihuana",
+			"artista":"Parihuana",
+			"song":"music/Parihuana - Toros Rojos.mp3",
+			"image":"images/audio/parihuana.jpg"
+		},
+		{
+			"id":2,
+			"nombre":"Rojo y blanco es nuestra canción - Ruddy Dánel",
+			"artista":"Ruddy Dánel",
+			"song":"music/Rojo y blanco - Ruddy.mp3",
+			"image":"images/audio/ruddy.jpg"
+		},
+		{
+			"id":3,
+			"nombre":"Calcheñita de mi corazón - Waynas",
+			"artista":"Waynas",
+			"song":"music/Waynas - Calcheita de mi corazon.mp3",
+			"image":"images/4.png"
+		},
+		{
+			"id":4,
+			"nombre":"Pueblo Mío - Sumaq raymi",
+			"artista":"Sumaq raymi",
+			"song":"music/Pueblo Mio - Sumaq raymi.mp3",
+			"image":"images/audio/raymi.jpg"
+		},
+		{
+			"id":5,
+			"nombre":"Rap 7 de mayo - Kevin",
+			"artista":"kevin",
+			"song":"music/Rap 7 de mayo - Kevin.mp3",
+			"image":"images/4.png"
+		},
+		{
+			"id":6,
+			"nombre":"Petreos Muros - Estudiantina 7 de mayo",
+			"artista":"Estudiantina",
+			"song":"music/Petreos Muros.mp3",
+			"image":"images/2.png"
+		},
+		{
+			"id":7,
+			"nombre":"Rojo y blanco - Estudiantina 7 de mayo",
+			"artista":"Estudiantina",
+			"song":"music/Rojo y blanco.mp3",
+			"image":"images/3.png"
+		},
+		{
+			"id":8,
+			"nombre":"Mix Pichincha",
+			"artista":"Estudiantina",
+			"song":"music/mixcnp.mp3",
+			"image":"images/3.png"
+		},
+		{
+			"id":9,
+			"nombre":"Mix Pichincha 2",
+			"artista":"desconocido",
+			"song":"music/mix.mp3",
+			"image":"images/2.png"
+		}
+	]
+}
